@@ -1,0 +1,11 @@
+{
+	"version": "1.0.0",
+	"name": "Movie Companion",
+	"isDesktopOnly": false,
+	"minAppVersion": "1.8.0",
+	"id": "movie-companion",
+	"description": "Organize your movie collection privately.",
+	"author": "ats4e",
+	"authorUrl": null,
+	"fundingUrl": null
+}

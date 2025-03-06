@@ -1,0 +1,35 @@
+{
+	"name": "obsidian-movie-companion",
+	"version": "1.0.0",
+	"description": "This is a plugin to help you to organize your movie collection privately",
+	"homepage": "https://github.com/ats4e/obsidian-movie-companion",
+
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	},
+	"keywords": [
+		"movie",
+		"movie note",
+		"movie collections",
+		"tv shows",
+		"obsidian",
+		"plugin"
+	],
+	"author": "ats4e",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^16.11.6",
+		"languagedetect": "^2.0.0",
+		"@popperjs/core": "2.11.8",
+		"@typescript-eslint/eslint-plugin": "5.29.0",
+		"@typescript-eslint/parser": "5.29.0",
+		"builtin-modules": "3.3.0",
+		"esbuild": "0.25.0",
+		"obsidian": "latest",
+		"tslib": "2.4.0",
+		"typescript": "4.7.4"
+	}
+}
