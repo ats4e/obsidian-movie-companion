@@ -5,7 +5,7 @@
 	"minAppVersion": "1.8.0",
 	"id": "movie-companion",
 	"description": "Organize your movie collection privately.",
-	"author": "ats4e",
+	"author": "Gianluca Moretti",
 	"authorUrl": null,
 	"fundingUrl": null,
 	"supportedLanguages": ["en", "it", "es", "fr", "de", "pt", "ru", "zh", "ja"]
