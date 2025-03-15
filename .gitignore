@@ -1,5 +1,4 @@
 data.json
-main.js
 yarn.lock
 esbuild.config.mjs
 node_modules/*
