@@ -1,17 +1,18 @@
 import { App, SuggestModal } from "obsidian";
-import { MovieSearch } from "@models/movie.model";
+import { MovieLight } from "@models/MovieModels";
+import i18n from "../services/I18nService";
 
-export class MovieSuggestModal extends SuggestModal<MovieSearch> {
+export class MovieSuggestModal extends SuggestModal<MovieLight> {
 	constructor(
 		app: App,
-		private readonly suggestion: MovieSearch[],
-		private onChoose: (error: Error | null, result?: MovieSearch) => void,
+		private readonly suggestion: MovieLight[],
+		private onChoose: (error: Error | null, result?: MovieLight) => void,
 	) {
 		super(app);
 	}
 
-	getSuggestions(query: string): MovieSearch[] {
-		return this.suggestion.filter(movie => {
+	getSuggestions(query: string): MovieLight[] {
+		const filteredMovies = this.suggestion.filter(movie => {
 			const search_query = query?.toLowerCase();
 			return (
 				movie.title?.toLowerCase().includes(search_query) ||
@@ -19,21 +20,27 @@ export class MovieSuggestModal extends SuggestModal<MovieSearch> {
 				movie.release_date?.toLowerCase().includes(search_query)
 			);
 		});
+
+		return filteredMovies.sort((a, b) => {
+			const dateA = new Date(a.release_date);
+			const dateB = new Date(b.release_date);
+			return dateA.getTime() - dateB.getTime();
+		});
 	}
 
-	renderSuggestion(movie: MovieSearch, element: HTMLElement) {
-		element.addClass("movie-search-plugin__movie-suggestion-item");
+	renderSuggestion(movie: MovieLight, element: HTMLElement) {
+		element.addClass("movie-companion__movie-suggestion-item");
 
 		if (movie.poster_path) {
 			element.createEl("img", {
-				cls: "movie-search-plugin__movie-cover-image",
+				cls: "movie-companion__movie-cover-image",
 				attr: {
 					src: movie.poster_path,
-					alt: `Poster of the ${movie.title}`,
+					alt: i18n.t("modals.posterOfThe") + " " +  movie.title,
 				},
 			});
 		}
-		const text_div = element.createEl("div", { cls: "movie-search-plugin__movie-text-info" });
+		const text_div = element.createEl("div", { cls: "movie-companion__movie-text-info" });
 
 		text_div.createEl("div", { text: movie.title });
 
@@ -48,7 +55,7 @@ export class MovieSuggestModal extends SuggestModal<MovieSearch> {
 		});
 	}
 
-	onChooseSuggestion(movie: MovieSearch) {
+	onChooseSuggestion(movie: MovieLight) {
 		this.onChoose(null, movie);
 	}
 }

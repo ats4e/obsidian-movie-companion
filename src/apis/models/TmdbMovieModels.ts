@@ -21,7 +21,6 @@ export interface TMDBMovieSearchResult {
 }
 
 export interface TMDBMovieResponse {
-	adult: boolean;
 	backdrop_path: string;
 	credits: {
 		cast: Actor[];
@@ -37,7 +36,8 @@ export interface TMDBMovieResponse {
 	original_name: string;
 	overview: string;
 	popularity: number;
-	poster_path: string;
+	poster_path: string | null;
+	images: Images;
 	production_companies: ProductionCompany[];
 	production_countries: ProductionCountry[];
 	release_date: string;
@@ -97,4 +97,14 @@ export interface Video {
 	key: string;
 	site: string;
 	type: string;
+}
+
+export interface Images {
+	posters: Poster[];
+}
+
+export interface Poster{
+	file_path: string;
+	vote_average: number;
+	vote_count: number;
 }

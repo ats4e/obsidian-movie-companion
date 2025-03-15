@@ -1,0 +1,53 @@
+{
+  "modals": {
+    "requesting": "リクエスト中...",
+    "search": "検索",
+    "searchCollection": "コレクション検索",
+    "searchMovie": "映画検索",
+    "searchByKeyword": "キーワードで検索",
+    "posterOfThe": "のポスター",
+    "yes": "はい",
+    "no": "いいえ",
+    "overwriteFileQuestion": "ファイルはすでに存在します。上書きしますか？",
+    "missingInput": "クエリが入力されていません？",
+    "noResultFound": "結果が見つかりません",
+    "selectPoster": "ポスターを選択",
+    "aPoster": "ポスター"
+  },
+  "settings": {
+    "movies": "映画",
+    "collections": "コレクション",
+    "newMovieNoteLocation": "新しい映画ノートの場所",
+    "newMovieNoteLocationDescription": "新しい映画ノートはここに配置されます。",
+    "folderLocationPlaceholder": "例：フォルダ1/フォルダ2",
+    "movieTemplateFile": "映画テンプレートファイル",
+    "templateFileDescription": "ファイルはテンプレートとして利用可能になります",
+    "templateFilePlaceholder": "例：テンプレート/テンプレートファイル.md",
+    "newCollectionNoteLocation": "新しいコレクションノートの場所",
+    "newCollectionNoteLocationDescription": "新しいコレクションノートはここに配置されます。",
+    "collectionTemplateFile": "コレクションテンプレートファイル",
+    "autoCreateCollectionFlag": "コレクションの自動作成",
+    "autoCreateCollectionDescription": "映画がコレクションに属している場合、コレクションノートの自動作成を有効または無効にする",
+    "showCreateCollectionRibbonButton": "手動コレクション作成用のリボンボタンを追加",
+    "showCreateCollectionRibbonButtonDescription": "手動コレクション作成用のリボンボタンを有効または無効にする",
+    "generalSettings": "一般設定",
+    "preferredLocale": "優先言語",
+    "preferredLocaleDescription": "映画やテレビ番組を検索する際に使用する優先言語を設定します",
+    "openNoteAfterCreation": "新しい映画またはテレビ番組ノートを開く",
+    "openNoteAfterCreationDescription": "作成時にノートを自動的に開くことを有効または無効にする",
+    "selectPoster": "ポスターの手動選択",
+    "selectPosterDescription": "複数のポスターが存在する場合、ポスター画像を選択できるようにします。無効にすると、デフォルトが使用されます",
+    "tmdbApiTitle": "TMDB APIキー",
+    "tmdbApiRetrieveApiKey": "ログインしてAPIキーを取得する",
+    "requiresRestart": "プラグインの再起動が必要",
+    "exampleTemplate": "テンプレート例"
+  },
+  "commands": {
+    "createMovieNote": "新しい映画ノートを作成",
+    "createCollectionNote": "新しいコレクションノートを作成"
+  },
+  "errors": {
+    "invalidTmdbApiKey": "エラー：TMDB APIキーが指定されていません",
+    "noLocaleFound": "エラー：言語設定が指定されていません"
+  }
+}

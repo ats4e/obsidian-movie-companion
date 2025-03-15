@@ -22,14 +22,14 @@ export class IsBoolModal extends Modal {
 		new ButtonComponent(contentEl)
 			.setButtonText(this.yes_button_text)
 			.setCta()
-			.setClass("movie-search-plugin__modal-button")
+			.setClass("movie-companion__modal-button")
 			.onClick(() => {
 				if (this.resolve) this.resolve(true);
 				this.close();
 			});
 		new ButtonComponent(contentEl)
 			.setButtonText(this.no_button_text)
-			.setClass("movie-search-plugin__modal-button")
+			.setClass("movie-companion__modal-button")
 			.onClick(() => {
 				if (this.resolve) this.resolve(false);
 				this.close();

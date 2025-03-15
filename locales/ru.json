@@ -1,0 +1,53 @@
+{
+  "modals": {
+    "requesting": "Запрос...",
+    "search": "Поиск",
+    "searchCollection": "Поиск коллекции",
+    "searchMovie": "Поиск фильма",
+    "searchByKeyword": "Поиск по ключевому слову",
+    "posterOfThe": "Постер",
+    "yes": "Да",
+    "no": "Нет",
+    "overwriteFileQuestion": "Файл уже существует. Хотите перезаписать его?",
+    "missingInput": "Не введен запрос?",
+    "noResultFound": "Результаты не найдены",
+    "selectPoster": "Выбрать постер",
+    "aPoster": "Постер"
+  },
+  "settings": {
+    "movies": "Фильмы",
+    "collections": "Коллекции",
+    "newMovieNoteLocation": "Расположение новых заметок о фильмах",
+    "newMovieNoteLocationDescription": "Новые заметки о фильмах будут размещены здесь.",
+    "folderLocationPlaceholder": "Пример: папка1/папка2",
+    "movieTemplateFile": "Файл шаблона фильма",
+    "templateFileDescription": "Файлы будут доступны как шаблоны",
+    "templateFilePlaceholder": "Пример: шаблоны/файл-шаблон.md",
+    "newCollectionNoteLocation": "Расположение новых заметок о коллекциях",
+    "newCollectionNoteLocationDescription": "Новые заметки о коллекциях будут размещены здесь.",
+    "collectionTemplateFile": "Файл шаблона коллекции",
+    "autoCreateCollectionFlag": "Автоматическое создание коллекции",
+    "autoCreateCollectionDescription": "Включить или отключить автоматическое создание заметки о коллекции, если фильм принадлежит коллекции",
+    "showCreateCollectionRibbonButton": "Добавить кнопку на панель для ручного создания коллекции",
+    "showCreateCollectionRibbonButtonDescription": "Включить или отключить кнопку на панели для ручного создания коллекции",
+    "generalSettings": "Общие настройки",
+    "preferredLocale": "Предпочтительный язык",
+    "preferredLocaleDescription": "Устанавливает предпочтительный язык для использования при поиске фильмов или телешоу",
+    "openNoteAfterCreation": "Открыть новую заметку о фильме или телешоу",
+    "openNoteAfterCreationDescription": "Включить или отключить автоматическое открытие заметки при создании",
+    "selectPoster": "Ручной выбор постера",
+    "selectPosterDescription": "Позволяет выбрать изображение постера, если существует более одного. Если отключено, будет использоваться по умолчанию",
+    "tmdbApiTitle": "Ключ API TMDB",
+    "tmdbApiRetrieveApiKey": "Войдите и получите свой ключ API здесь",
+    "requiresRestart": "Требуется перезапуск плагина",
+    "exampleTemplate": "Пример шаблона"
+  },
+  "commands": {
+    "createMovieNote": "Создать новую заметку о фильме",
+    "createCollectionNote": "Создать новую заметку о коллекции"
+  },
+  "errors": {
+    "invalidTmdbApiKey": "Ошибка: Ключ API TMDB не указан",
+    "noLocaleFound": "Ошибка: Предпочтение языка не указано"
+  }
+}

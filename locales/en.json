@@ -1,0 +1,53 @@
+{
+  "modals": {
+    "requesting": "Requesting...",
+    "search": "Search",
+    "searchCollection": "Search Collection",
+    "searchMovie": "Search Movie",
+    "searchByKeyword": "Search by keyword",
+    "posterOfThe": "Poster of the",
+    "yes": "Yes",
+    "no": "No",
+    "overwriteFileQuestion": "File already exists. Do you want to overwrite it?",
+    "missingInput": "No query entered?",
+    "noResultFound": "No results found",
+    "selectPoster": "Select Poster",
+    "aPoster": "A poster"
+  },
+  "settings": {
+    "movies": "Movies",
+    "collections": "Collections",
+    "newMovieNoteLocation": "New movie file location",
+    "newMovieNoteLocationDescription": "New movie notes will be placed here.",
+    "folderLocationPlaceholder": "Example: folder1/folder2",
+    "movieTemplateFile": "Movie template file",
+    "templateFileDescription": "Files will be available as templates",
+    "templateFilePlaceholder": "Example: templates/template-file.md",
+    "newCollectionNoteLocation": "New movie collection file location",
+    "newCollectionNoteLocationDescription": "New collection notes will be placed here.",
+    "collectionTemplateFile": "Collection template file",
+    "autoCreateCollectionFlag": "Automatic collection creation",
+    "autoCreateCollectionDescription": "Enable or disable the automatic creation of a collection note if a movie belongs to the collection",
+    "showCreateCollectionRibbonButton": "Add Ribbon Button for Manual Collection Creation",
+    "showCreateCollectionRibbonButtonDescription": "Enable or disable the ribbon button for manual collection creation",
+    "generalSettings": "General Settings",
+    "preferredLocale": "Preferred locale",
+    "preferredLocaleDescription": "Sets the preferred locale to use when searching for movies or tv shows",
+    "openNoteAfterCreation": "Open new Movie or Tv Show note",
+    "openNoteAfterCreationDescription": "Enable or disable the automatic opening of the note on creation",
+    "selectPoster": "Manual poster selection",
+    "selectPosterDescription": "Permits to select the poster image if more then one exists. If disabled, the default will be used",
+    "tmdbApiTitle": "TMDB API key",
+    "tmdbApiRetrieveApiKey": "Login and get your API Key here",
+    "requiresRestart": "Requires plugin restart",
+    "exampleTemplate": "Example template"
+  },
+  "commands": {
+    "createMovieNote": "Create new Movie Note",
+    "createCollectionNote": "Create new Collection Note"
+  },
+  "errors": {
+    "invalidTmdbApiKey": "Error: TMDB API key is not specified",
+    "noLocaleFound": "Error: Locale preference is not specified"
+  }
+}

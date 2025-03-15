@@ -1,0 +1,53 @@
+{
+  "modals": {
+    "requesting": "请求中...",
+    "search": "搜索",
+    "searchCollection": "搜索合集",
+    "searchMovie": "搜索电影",
+    "searchByKeyword": "按关键词搜索",
+    "posterOfThe": "海报",
+    "yes": "是",
+    "no": "否",
+    "overwriteFileQuestion": "文件已存在。您要覆盖它吗？",
+    "missingInput": "没有输入查询？",
+    "noResultFound": "未找到结果",
+    "selectPoster": "选择海报",
+    "aPoster": "一张海报"
+  },
+  "settings": {
+    "movies": "电影",
+    "collections": "合集",
+    "newMovieNoteLocation": "新电影笔记位置",
+    "newMovieNoteLocationDescription": "新电影笔记将放置在这里。",
+    "folderLocationPlaceholder": "示例：文件夹1/文件夹2",
+    "movieTemplateFile": "电影模板文件",
+    "templateFileDescription": "文件将作为模板可用",
+    "templateFilePlaceholder": "示例：模板/模板文件.md",
+    "newCollectionNoteLocation": "新合集笔记位置",
+    "newCollectionNoteLocationDescription": "新合集笔记将放置在这里。",
+    "collectionTemplateFile": "合集模板文件",
+    "autoCreateCollectionFlag": "自动创建合集",
+    "autoCreateCollectionDescription": "启用或禁用当电影属于某个合集时自动创建合集笔记",
+    "showCreateCollectionRibbonButton": "添加手动创建合集的功能区按钮",
+    "showCreateCollectionRibbonButtonDescription": "启用或禁用手动创建合集的功能区按钮",
+    "generalSettings": "常规设置",
+    "preferredLocale": "首选语言",
+    "preferredLocaleDescription": "设置搜索电影或电视节目时使用的首选语言",
+    "openNoteAfterCreation": "创建后打开新电影或电视节目笔记",
+    "openNoteAfterCreationDescription": "启用或禁用创建时自动打开笔记",
+    "selectPoster": "手动选择海报",
+    "selectPosterDescription": "如果存在多个海报，允许选择海报图像。如果禁用，将使用默认海报",
+    "tmdbApiTitle": "TMDB API密钥",
+    "tmdbApiRetrieveApiKey": "登录并在此处获取您的API密钥",
+    "requiresRestart": "需要重启插件",
+    "exampleTemplate": "示例模板"
+  },
+  "commands": {
+    "createMovieNote": "创建新电影笔记",
+    "createCollectionNote": "创建新合集笔记"
+  },
+  "errors": {
+    "invalidTmdbApiKey": "错误：未指定TMDB API密钥",
+    "noLocaleFound": "错误：未指定语言首选项"
+  }
+}

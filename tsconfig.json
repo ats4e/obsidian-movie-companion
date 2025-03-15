@@ -19,8 +19,9 @@
 			"@modals/*": ["src/modals/*"],
 			"@src/*": ["src/*"]
 		},
+		"resolveJsonModule": true,  // Permette di importare JSON
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true
 	},
-	"include": ["**/*.ts"]
+	"include": ["**/*.ts", "**/*.json"]
 }

@@ -1,53 +1,91 @@
-.movie-search-plugin__settings .search-input-container {
+.movie-companion__settings .search-input-container {
 	width: 100%;
 }
 
-.movie-search-plugin__settings--new_file_name {
+.movie-companion__settings--new_file_name {
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
-.movie-search-plugin__settings--new_file_name_hint {
+.movie-companion__settings--new_file_name_hint {
 	margin-bottom: 10px;
 }
-.movie-search-plugin__settings--service_provider .dropdown {
+.movie-companion__settings--service_provider .dropdown {
 	text-transform: capitalize;
 }
 
-.movie-search-plugin__hide {
+.movie-companion__hide {
 	display: none;
 }
-.movie-search-plugin__show {
+.movie-companion__show {
 	display: flex;
 }
 
-.movie-search-plugin__recent-locale {
+.movie-companion__recent-locale {
 	float: right;
 	color: #666;
 }
 
-.movie-search-plugin__movie-suggestion-item {
+.movie-companion__movie-suggestion-item {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
-.movie-search-plugin__movie-cover-image {
+.movie-companion__movie-cover-image {
     max-width: 100px;
     max-height: 100px;
     margin-right: 10px;
     object-fit: cover;
     border-radius: 3px;
 }
-.movie-search-plugin__movie-text-info {
+
+.movie-companion__movie-text-info {
     flex-grow: 1;
 }
 
-.movie-search-plugin__search-modal--input {
+.movie-companion__search-modal--input {
 	padding-bottom: 18px;
 }
-.movie-search-plugin__search-modal--input input {
+.movie-companion__search-modal--input input {
 	width: 100%;
 }
 
-.movie-search-plugin__modal-button {
+.movie-companion__modal-button {
 	margin: 5px;
+}
+
+/* Stile per il contenitore delle immagini */
+.movie-companion__image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.movie-companion__movie-suggestion-cover-image {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+    outline: none; /* Rimuove l'outline predefinito per il focus */
+}
+
+/* Stile per la selezione */
+.movie-companion__movie-suggestion-cover-image.selected {
+    box-shadow: 0 0 0 3px var(--accent-color), 2px 4px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+/* Stile per hover, con specificità maggiore per sovrascrivere la selezione quando necessario */
+.movie-companion__movie-suggestion-cover-image:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Stile combinato per quando un'immagine è sia selezionata che in hover */
+.movie-companion__movie-suggestion-cover-image.selected:hover {
+    transform: scale(1.08); /* Scala leggermente maggiore per mostrare l'effetto hover */
+    box-shadow: 0 0 0 3px var(--accent-color), 3px 6px 10px rgba(0, 0, 0, 0.3);
 }

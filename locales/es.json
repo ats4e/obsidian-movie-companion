@@ -1,0 +1,53 @@
+{
+  "modals": {
+    "requesting": "Solicitando...",
+    "search": "Buscar",
+    "searchCollection": "Buscar colección",
+    "searchMovie": "Buscar película",
+    "searchByKeyword": "Buscar por palabra clave",
+    "posterOfThe": "Póster de la",
+    "yes": "Sí",
+    "no": "No",
+    "overwriteFileQuestion": "El archivo ya existe. ¿Desea sobrescribirlo?",
+    "missingInput": "¿No se ha introducido ninguna consulta?",
+    "noResultFound": "No se encontraron resultados",
+    "selectPoster": "Seleccionar póster",
+    "aPoster": "Un póster"
+  },
+  "settings": {
+    "movies": "Películas",
+    "collections": "Colecciones",
+    "newMovieNoteLocation": "Ubicación de nuevas notas de películas",
+    "newMovieNoteLocationDescription": "Las nuevas notas de películas se colocarán aquí.",
+    "folderLocationPlaceholder": "Ejemplo: carpeta1/carpeta2",
+    "movieTemplateFile": "Archivo de plantilla de película",
+    "templateFileDescription": "Los archivos estarán disponibles como plantillas",
+    "templateFilePlaceholder": "Ejemplo: plantillas/archivo-plantilla.md",
+    "newCollectionNoteLocation": "Ubicación de nuevas notas de colección",
+    "newCollectionNoteLocationDescription": "Las nuevas notas de colección se colocarán aquí.",
+    "collectionTemplateFile": "Archivo de plantilla de colección",
+    "autoCreateCollectionFlag": "Creación automática de colección",
+    "autoCreateCollectionDescription": "Activar o desactivar la creación automática de una nota de colección si una película pertenece a la colección",
+    "showCreateCollectionRibbonButton": "Añadir botón de cinta para creación manual de colección",
+    "showCreateCollectionRibbonButtonDescription": "Activar o desactivar el botón de cinta para la creación manual de colección",
+    "generalSettings": "Configuración general",
+    "preferredLocale": "Idioma preferido",
+    "preferredLocaleDescription": "Establece el idioma preferido para usar al buscar películas o programas de televisión",
+    "openNoteAfterCreation": "Abrir nueva nota de película o programa de TV",
+    "openNoteAfterCreationDescription": "Activar o desactivar la apertura automática de la nota al crearla",
+    "selectPoster": "Selección manual de póster",
+    "selectPosterDescription": "Permite seleccionar la imagen del póster si existe más de una. Si está desactivado, se utilizará el predeterminado",
+    "tmdbApiTitle": "Clave API de TMDB",
+    "tmdbApiRetrieveApiKey": "Inicie sesión y obtenga su clave API aquí",
+    "requiresRestart": "Requiere reiniciar el plugin",
+    "exampleTemplate": "Plantilla de ejemplo"
+  },
+  "commands": {
+    "createMovieNote": "Crear nueva nota de película",
+    "createCollectionNote": "Crear nueva nota de colección"
+  },
+  "errors": {
+    "invalidTmdbApiKey": "Error: La clave API de TMDB no está especificada",
+    "noLocaleFound": "Error: La preferencia de idioma no está especificada"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "modals": {
+    "requesting": "Solicitando...",
+    "search": "Pesquisar",
+    "searchCollection": "Pesquisar coleção",
+    "searchMovie": "Pesquisar filme",
+    "searchByKeyword": "Pesquisar por palavra-chave",
+    "posterOfThe": "Cartaz do",
+    "yes": "Sim",
+    "no": "Não",
+    "overwriteFileQuestion": "O arquivo já existe. Deseja sobrescrevê-lo?",
+    "missingInput": "Nenhuma consulta inserida?",
+    "noResultFound": "Nenhum resultado encontrado",
+    "selectPoster": "Selecionar cartaz",
+    "aPoster": "Um cartaz"
+  },
+  "settings": {
+    "movies": "Filmes",
+    "collections": "Coleções",
+    "newMovieNoteLocation": "Localização de novas anotações de filme",
+    "newMovieNoteLocationDescription": "Novas anotações de filme serão colocadas aqui.",
+    "folderLocationPlaceholder": "Exemplo: pasta1/pasta2",
+    "movieTemplateFile": "Arquivo de modelo de filme",
+    "templateFileDescription": "Arquivos estarão disponíveis como modelos",
+    "templateFilePlaceholder": "Exemplo: modelos/arquivo-modelo.md",
+    "newCollectionNoteLocation": "Localização de novas anotações de coleção",
+    "newCollectionNoteLocationDescription": "Novas anotações de coleção serão colocadas aqui.",
+    "collectionTemplateFile": "Arquivo de modelo de coleção",
+    "autoCreateCollectionFlag": "Criação automática de coleção",
+    "autoCreateCollectionDescription": "Ativar ou desativar a criação automática de uma anotação de coleção se um filme pertencer à coleção",
+    "showCreateCollectionRibbonButton": "Adicionar botão de faixa para criação manual de coleção",
+    "showCreateCollectionRibbonButtonDescription": "Ativar ou desativar o botão de faixa para criação manual de coleção",
+    "generalSettings": "Configurações gerais",
+    "preferredLocale": "Idioma preferido",
+    "preferredLocaleDescription": "Define o idioma preferido para usar ao pesquisar filmes ou programas de TV",
+    "openNoteAfterCreation": "Abrir nova anotação de filme ou programa de TV",
+    "openNoteAfterCreationDescription": "Ativar ou desativar a abertura automática da anotação na criação",
+    "selectPoster": "Seleção manual de cartaz",
+    "selectPosterDescription": "Permite selecionar a imagem do cartaz se existir mais de uma. Se desativado, o padrão será usado",
+    "tmdbApiTitle": "Chave API TMDB",
+    "tmdbApiRetrieveApiKey": "Faça login e obtenha sua chave API aqui",
+    "requiresRestart": "Requer reinicialização do plugin",
+    "exampleTemplate": "Exemplo de modelo"
+  },
+  "commands": {
+    "createMovieNote": "Criar nova anotação de filme",
+    "createCollectionNote": "Criar nova anotação de coleção"
+  },
+  "errors": {
+    "invalidTmdbApiKey": "Erro: A chave API TMDB não está especificada",
+    "noLocaleFound": "Erro: A preferência de idioma não está especificada"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "modals": {
+    "requesting": "Anfrage wird gesendet...",
+    "search": "Suchen",
+    "searchCollection": "Sammlung durchsuchen",
+    "searchMovie": "Film suchen",
+    "searchByKeyword": "Nach Schlüsselwort suchen",
+    "posterOfThe": "Poster des",
+    "yes": "Ja",
+    "no": "Nein",
+    "overwriteFileQuestion": "Datei existiert bereits. Möchten Sie sie überschreiben?",
+    "missingInput": "Keine Suchanfrage eingegeben?",
+    "noResultFound": "Keine Ergebnisse gefunden",
+    "selectPoster": "Poster auswählen",
+    "aPoster": "Ein Poster"
+  },
+  "settings": {
+    "movies": "Filme",
+    "collections": "Sammlungen",
+    "newMovieNoteLocation": "Speicherort für neue Film-Notizen",
+    "newMovieNoteLocationDescription": "Neue Film-Notizen werden hier abgelegt.",
+    "folderLocationPlaceholder": "Beispiel: Ordner1/Ordner2",
+    "movieTemplateFile": "Film-Vorlagendatei",
+    "templateFileDescription": "Dateien werden als Vorlagen verfügbar sein",
+    "templateFilePlaceholder": "Beispiel: vorlagen/vorlage-datei.md",
+    "newCollectionNoteLocation": "Speicherort für neue Sammlungs-Notizen",
+    "newCollectionNoteLocationDescription": "Neue Sammlungs-Notizen werden hier abgelegt.",
+    "collectionTemplateFile": "Sammlungs-Vorlagendatei",
+    "autoCreateCollectionFlag": "Automatische Sammlungserstellung",
+    "autoCreateCollectionDescription": "Aktivieren oder deaktivieren der automatischen Erstellung einer Sammlungs-Notiz, wenn ein Film zu einer Sammlung gehört",
+    "showCreateCollectionRibbonButton": "Menüband-Schaltfläche für manuelle Sammlungserstellung hinzufügen",
+    "showCreateCollectionRibbonButtonDescription": "Aktivieren oder deaktivieren der Menüband-Schaltfläche für die manuelle Sammlungserstellung",
+    "generalSettings": "Allgemeine Einstellungen",
+    "preferredLocale": "Bevorzugte Sprache",
+    "preferredLocaleDescription": "Legt die bevorzugte Sprache für die Suche nach Filmen oder TV-Sendungen fest",
+    "openNoteAfterCreation": "Neue Film- oder TV-Sendungs-Notiz öffnen",
+    "openNoteAfterCreationDescription": "Aktivieren oder deaktivieren des automatischen Öffnens der Notiz bei der Erstellung",
+    "selectPoster": "Manuelle Posterauswahl",
+    "selectPosterDescription": "Ermöglicht die Auswahl des Posterbildes, wenn mehr als eines existiert. Wenn deaktiviert, wird der Standard verwendet",
+    "tmdbApiTitle": "TMDB API-Schlüssel",
+    "tmdbApiRetrieveApiKey": "Melden Sie sich an und holen Sie Ihren API-Schlüssel hier",
+    "requiresRestart": "Erfordert Neustart des Plugins",
+    "exampleTemplate": "Beispielvorlage"
+  },
+  "commands": {
+    "createMovieNote": "Neue Film-Notiz erstellen",
+    "createCollectionNote": "Neue Sammlungs-Notiz erstellen"
+  },
+  "errors": {
+    "invalidTmdbApiKey": "Fehler: TMDB API-Schlüssel ist nicht angegeben",
+    "noLocaleFound": "Fehler: Spracheinstellung ist nicht angegeben"
+  }
+}

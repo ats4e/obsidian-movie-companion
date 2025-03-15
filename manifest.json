@@ -7,5 +7,6 @@
 	"description": "Organize your movie collection privately.",
 	"author": "ats4e",
 	"authorUrl": null,
-	"fundingUrl": null
+	"fundingUrl": null,
+	"supportedLanguages": ["en", "it", "es", "fr", "de", "pt", "ru", "zh", "ja"]
 }

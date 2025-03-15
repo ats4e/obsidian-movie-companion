@@ -1,0 +1,53 @@
+{
+  "modals": {
+    "requesting": "Demande en cours...",
+    "search": "Rechercher",
+    "searchCollection": "Rechercher une collection",
+    "searchMovie": "Rechercher un film",
+    "searchByKeyword": "Rechercher par mot-clé",
+    "posterOfThe": "Affiche du",
+    "yes": "Oui",
+    "no": "Non",
+    "overwriteFileQuestion": "Le fichier existe déjà. Voulez-vous l'écraser ?",
+    "missingInput": "Aucune requête saisie ?",
+    "noResultFound": "Aucun résultat trouvé",
+    "selectPoster": "Sélectionner l'affiche",
+    "aPoster": "Une affiche"
+  },
+  "settings": {
+    "movies": "Films",
+    "collections": "Collections",
+    "newMovieNoteLocation": "Emplacement des nouvelles notes de film",
+    "newMovieNoteLocationDescription": "Les nouvelles notes de film seront placées ici.",
+    "folderLocationPlaceholder": "Exemple: dossier1/dossier2",
+    "movieTemplateFile": "Fichier modèle de film",
+    "templateFileDescription": "Les fichiers seront disponibles comme modèles",
+    "templateFilePlaceholder": "Exemple: modeles/fichier-modele.md",
+    "newCollectionNoteLocation": "Emplacement des nouvelles notes de collection",
+    "newCollectionNoteLocationDescription": "Les nouvelles notes de collection seront placées ici.",
+    "collectionTemplateFile": "Fichier modèle de collection",
+    "autoCreateCollectionFlag": "Création automatique de collection",
+    "autoCreateCollectionDescription": "Activer ou désactiver la création automatique d'une note de collection si un film appartient à la collection",
+    "showCreateCollectionRibbonButton": "Ajouter un bouton au ruban pour la création manuelle de collection",
+    "showCreateCollectionRibbonButtonDescription": "Activer ou désactiver le bouton du ruban pour la création manuelle de collection",
+    "generalSettings": "Paramètres généraux",
+    "preferredLocale": "Langue préférée",
+    "preferredLocaleDescription": "Définit la langue préférée à utiliser lors de la recherche de films ou d'émissions de télévision",
+    "openNoteAfterCreation": "Ouvrir la nouvelle note de film ou d'émission TV",
+    "openNoteAfterCreationDescription": "Activer ou désactiver l'ouverture automatique de la note à sa création",
+    "selectPoster": "Sélection manuelle d'affiche",
+    "selectPosterDescription": "Permet de sélectionner l'image de l'affiche si plus d'une existe. Si désactivé, l'affiche par défaut sera utilisée",
+    "tmdbApiTitle": "Clé API TMDB",
+    "tmdbApiRetrieveApiKey": "Connectez-vous et obtenez votre clé API ici",
+    "requiresRestart": "Nécessite un redémarrage du plugin",
+    "exampleTemplate": "Exemple de modèle"
+  },
+  "commands": {
+    "createMovieNote": "Créer une nouvelle note de film",
+    "createCollectionNote": "Créer une nouvelle note de collection"
+  },
+  "errors": {
+    "invalidTmdbApiKey": "Erreur: La clé API TMDB n'est pas spécifiée",
+    "noLocaleFound": "Erreur: La préférence de langue n'est pas spécifiée"
+  }
+}
