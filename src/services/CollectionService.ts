@@ -41,9 +41,9 @@ export class CollectionService extends BaseRenderableService {
 
     try {
       const file_path = await this.getFilePath(collection, this.settings.collection_folder);
-      var file = this.app.vault.getFileByPath(file_path);
+      let file = this.app.vault.getFileByPath(file_path);
 
-      var create_file = true;
+      let create_file = true;
       if(file) {
         const is_overwrite = await this.openBoolModal(IsOverwriteFileModal, file.name);
         create_file = is_overwrite;
@@ -75,7 +75,7 @@ export class CollectionService extends BaseRenderableService {
   private async findCollection(query?: string): Promise<Collection> {
     let locale_preference = this.settings.locale_preference;
     const searched_collections = await this.openCollectionSearchModal(query, locale_preference);
-    var collectionLight = searched_collections[0];
+    let collectionLight = searched_collections[0];
     if (searched_collections.length > 1) 
       collectionLight = await this.openCollectionSuggestModal(searched_collections);
 

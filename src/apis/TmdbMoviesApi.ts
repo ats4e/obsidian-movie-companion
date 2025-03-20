@@ -135,10 +135,10 @@ export class TMDBMoviesAPI extends BaseAPI {
 		if(!images || !images.posters)
 			return null;
 
-		var posters = images.posters;
+		let posters = images.posters;
 		
 		const moviePosters = posters.map((tmdbPoster) => {
-			var moviePoster: MoviePoster = {
+			let moviePoster: MoviePoster = {
 				vote_average: tmdbPoster.vote_average,
 				vote_count: tmdbPoster.vote_count,
 				file_path: `https://image.tmdb.org/t/p/original${tmdbPoster.file_path}`

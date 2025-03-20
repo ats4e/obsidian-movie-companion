@@ -104,11 +104,11 @@ export default class MovieCompanionPlugin extends Plugin {
         if(!collection_id)
             return;
 
-        var collection = await this.collectionService.getCollectionById(collection_id);
+        let collection = await this.collectionService.getCollectionById(collection_id);
 
-        var collection_file_path = await this.collectionService.getFilePath(collection, this.settings.collection_folder);
+        let collection_file_path = await this.collectionService.getFilePath(collection, this.settings.collection_folder);
 
-        var collection_file = this.app.vault.getFileByPath(collection_file_path);
+        let collection_file = this.app.vault.getFileByPath(collection_file_path);
 
         if(!collection || collection_file)
             return;

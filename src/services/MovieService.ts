@@ -29,9 +29,9 @@ export class MovieService extends BaseRenderableService {
     try {
       const movie = await this.findMovie();
       const file_path = await this.getFilePath(movie, this.settings.movie_folder);
-      var file = this.app.vault.getFileByPath(file_path);
+      let file = this.app.vault.getFileByPath(file_path);
 
-      var create_file = true;
+      let create_file = true;
       
       if (file) {
         const is_overwrite = await this.openBoolModal(
@@ -78,7 +78,7 @@ export class MovieService extends BaseRenderableService {
   async findMovie(query?: string): Promise<Movie> {
     const searched_movies = await this.openMovieSearchModal(query);
 
-    var movieLight = searched_movies[0];
+    let movieLight = searched_movies[0];
     if (searched_movies.length > 1)
       movieLight = await this.openMovieSuggestModal(searched_movies);
 

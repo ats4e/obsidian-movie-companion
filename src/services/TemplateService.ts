@@ -118,7 +118,7 @@ export class TemplateService {
 
                     // Crea l'elenco con l'indentazione
                     const formattedList = val.map((item, index) => {
-                        var formatted_val = removeInvalidCharFromValues(item);
+                        let formatted_val = removeInvalidCharFromValues(item);
                         // aggiungi le virgolette se necessario
                         formatted_val = hasQuotes ? `"${formatted_val}"` : `${formatted_val}`;
                         
