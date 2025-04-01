@@ -2,8 +2,8 @@
   "modals": {
     "requesting": "Requesting...",
     "search": "Search",
-    "searchCollection": "Search Collection",
-    "searchMovie": "Search Movie",
+    "searchCollection": "Search collection",
+    "searchMovie": "Search movie",
     "searchByKeyword": "Search by keyword",
     "posterOfThe": "Poster of the",
     "yes": "Yes",
@@ -11,7 +11,7 @@
     "overwriteFileQuestion": "File already exists. Do you want to overwrite it?",
     "missingInput": "No query entered?",
     "noResultFound": "No results found",
-    "selectPoster": "Select Poster",
+    "selectPoster": "Select poster",
     "aPoster": "A poster"
   },
   "settings": {
@@ -28,26 +28,26 @@
     "collectionTemplateFile": "Collection template file",
     "autoCreateCollectionFlag": "Automatic collection creation",
     "autoCreateCollectionDescription": "Enable or disable the automatic creation of a collection note if a movie belongs to the collection",
-    "showCreateCollectionRibbonButton": "Add Ribbon Button for Manual Collection Creation",
+    "showCreateCollectionRibbonButton": "Add ribbon button for manual collection creation",
     "showCreateCollectionRibbonButtonDescription": "Enable or disable the ribbon button for manual collection creation",
-    "generalSettings": "General Settings",
+    "generalSettings": "General settings",
     "preferredLocale": "Preferred locale",
     "preferredLocaleDescription": "Sets the preferred locale to use when searching for movies or tv shows",
-    "openNoteAfterCreation": "Open new Movie or Tv Show note",
+    "openNoteAfterCreation": "Open new movie or TV show note",
     "openNoteAfterCreationDescription": "Enable or disable the automatic opening of the note on creation",
     "selectPoster": "Manual poster selection",
-    "selectPosterDescription": "Permits to select the poster image if more then one exists. If disabled, the default will be used",
+    "selectPosterDescription": "Permits to select the poster image if more than one exists. If disabled, the default will be used",
     "tmdbApiTitle": "TMDB API key",
-    "tmdbApiRetrieveApiKey": "Login and get your API Key here",
+    "tmdbApiRetrieveApiKey": "Login and get your API key here",
     "requiresRestart": "Requires plugin restart",
     "exampleTemplate": "Example template"
   },
   "commands": {
-    "createMovieNote": "Create new Movie Note",
-    "createCollectionNote": "Create new Collection Note"
+    "createMovieNote": "Create new movie note",
+    "createCollectionNote": "Create new collection note"
   },
   "errors": {
     "invalidTmdbApiKey": "Error: TMDB API key is not specified",
-    "noLocaleFound": "Error: Locale preference is not specified"
+    "noLocaleFound": "Error: locale preference is not specified"
   }
 }

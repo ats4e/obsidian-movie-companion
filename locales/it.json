@@ -2,8 +2,8 @@
   "modals": {
     "requesting": "Richiesta in corso...",
     "search": "Ricerca",
-    "searchCollection": "Cerca Collezione",
-    "searchMovie": "Cerca Film",
+    "searchCollection": "Cerca collezione",
+    "searchMovie": "Cerca film",
     "searchByKeyword": "Cerca per parola chiave",
     "posterOfThe": "Poster del",
     "yes": "Sì",
@@ -11,7 +11,7 @@
     "overwriteFileQuestion": "Il file esiste già. Vuoi sovrascriverlo?",
     "missingInput": "Nessuna query inserita?",
     "noResultFound": "Nessun risultato trovato",
-    "selectPoster": "Seleziona Poster",
+    "selectPoster": "Seleziona poster",
     "aPoster": "Un poster"
   },
   "settings": {
@@ -28,12 +28,12 @@
     "collectionTemplateFile": "File modello della collezione",
     "autoCreateCollectionFlag": "Creazione automatica della collezione",
     "autoCreateCollectionDescription": "Abilita o disabilita la creazione automatica di una nota di collezione se un film appartiene alla collezione",
-    "showCreateCollectionRibbonButton": "Aggiungi pulsante Ribbon per la creazione manuale della collezione",
-    "showCreateCollectionRibbonButtonDescription": "Abilita o disabilita il pulsante Ribbon per la creazione manuale della collezione",
+    "showCreateCollectionRibbonButton": "Aggiungi pulsante ribbon per la creazione manuale della collezione",
+    "showCreateCollectionRibbonButtonDescription": "Abilita o disabilita il pulsante ribbon per la creazione manuale della collezione",
     "generalSettings": "Impostazioni generali",
     "preferredLocale": "Lingua preferita",
     "preferredLocaleDescription": "Imposta la lingua preferita da utilizzare quando si cercano film o serie TV",
-    "openNoteAfterCreation": "Apri nuova nota di Film o Serie TV",
+    "openNoteAfterCreation": "Apri nuova nota di film o serie TV",
     "openNoteAfterCreationDescription": "Abilita o disabilita l'apertura automatica della nota alla creazione",
     "selectPoster": "Selezione manuale del poster",
     "selectPosterDescription": "Permette di selezionare l'immagine del poster se ne esistono più di una. Se disabilitato, verrà utilizzato il predefinito",
@@ -43,11 +43,11 @@
     "exampleTemplate": "Template di esempio"
   },
   "commands": {
-    "createMovieNote": "Crea nuova Nota del Film",
-    "createCollectionNote": "Crea nuova Nota della Collezione"
+    "createMovieNote": "Crea nuova nota del film",
+    "createCollectionNote": "Crea nuova nota della collezione"
   },
   "errors": {
-    "invalidTmdbApiKey": "Errore: Chiave API TMDB non specificata",
-    "noLocaleFound": "Errore: Preferenza della lingua non specificata"
+    "invalidTmdbApiKey": "Errore: chiave API TMDB non specificata",
+    "noLocaleFound": "Errore: preferenza della lingua non specificata"
   }
 }
