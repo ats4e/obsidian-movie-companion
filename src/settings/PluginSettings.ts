@@ -1,4 +1,4 @@
-import { App, PluginSettingTab, Setting } from "obsidian";
+import { App, getLanguage, PluginSettingTab, Setting } from "obsidian";
 import { normalizePath } from 'obsidian';
 
 import MovieCompanionPlugin from "../Main";
@@ -41,9 +41,7 @@ export const DEFAULT_SETTINGS: PluginSettings = {
 };
 
 function getDefaultLocale() : string {
-	// Determina il locale predefinito dal sistema
-	const system_locale = navigator.language.split('-')[0] || "en";
-	return system_locale;
+	return getLanguage()
 }
 
 export class MovieSearchSettingTab extends PluginSettingTab {
