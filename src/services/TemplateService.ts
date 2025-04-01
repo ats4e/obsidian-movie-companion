@@ -21,8 +21,6 @@ export class TemplateService {
         if (template_path) {
             const template_content = await this.getTemplate(template_path);
 
-            console.log(renderable);
-            
             rendered_content = this.replaceTemplateVariableWithValues(
                 this.applyTemplateTransformations(template_content),
                 renderable,
