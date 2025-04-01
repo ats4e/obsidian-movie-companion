@@ -1,4 +1,5 @@
 import { App, PluginSettingTab, Setting } from "obsidian";
+import { normalizePath } from 'obsidian';
 
 import MovieCompanionPlugin from "../Main";
 
@@ -75,7 +76,7 @@ export class MovieSearchSettingTab extends PluginSettingTab {
 				cb.setPlaceholder(i18n.t("settings.folderLocationPlaceholder"))
 					.setValue(this.plugin.settings.movie_folder)
 					.onChange(new_folder => {
-						this.plugin.settings.movie_folder = new_folder;
+						this.plugin.settings.movie_folder = normalizePath(new_folder);
 						this.saveSettings();
 					});
 			});
@@ -98,7 +99,7 @@ export class MovieSearchSettingTab extends PluginSettingTab {
 					cb.setPlaceholder(i18n.t("settings.templateFilePlaceholder"))
 						.setValue(this.plugin.settings.movie_template_file)
 						.onChange(new_template_file => {
-							this.plugin.settings.movie_template_file = new_template_file;
+							this.plugin.settings.movie_template_file = normalizePath(new_template_file);
 							this.saveSettings();
 						});
 				});
@@ -119,7 +120,7 @@ export class MovieSearchSettingTab extends PluginSettingTab {
 				cb.setPlaceholder("Example: folder1/folder2")
 					.setValue(this.plugin.settings.tv_shows_folder)
 					.onChange(new_folder => {
-						this.plugin.settings.tv_shows_folder = new_folder;
+						this.plugin.settings.tv_shows_folder = normalizePath(new_folder);
 						this.saveSettings();
 					});
 			});
@@ -142,7 +143,7 @@ export class MovieSearchSettingTab extends PluginSettingTab {
 				cb.setPlaceholder("Example: templates/template-file.md")
 					.setValue(this.plugin.settings.tv_shows_template_file)
 					.onChange(new_template_file => {
-						this.plugin.settings.tv_shows_template_file = new_template_file;
+						this.plugin.settings.tv_shows_template_file = normalizePath(new_template_file);
 						this.saveSettings();
 					});
 			});
@@ -163,7 +164,7 @@ export class MovieSearchSettingTab extends PluginSettingTab {
 				cb.setPlaceholder(i18n.t("settings.folderLocationPlaceholder"))
 					.setValue(this.plugin.settings.collection_folder)
 					.onChange(new_folder => {
-						this.plugin.settings.collection_folder = new_folder;
+						this.plugin.settings.collection_folder = normalizePath(new_folder);
 						this.saveSettings();
 					});
 			});
@@ -186,7 +187,7 @@ export class MovieSearchSettingTab extends PluginSettingTab {
 				cb.setPlaceholder(i18n.t("settings.templateFilePlaceholder"))
 					.setValue(this.plugin.settings.collection_template_file)
 					.onChange(new_template_file => {
-						this.plugin.settings.collection_template_file = new_template_file;
+						this.plugin.settings.collection_template_file = normalizePath(new_template_file);
 						this.saveSettings();
 					});
 			});
