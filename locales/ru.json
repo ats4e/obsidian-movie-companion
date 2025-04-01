@@ -30,7 +30,7 @@
     "autoCreateCollectionDescription": "Включить или отключить автоматическое создание заметки о коллекции, если фильм принадлежит коллекции",
     "showCreateCollectionRibbonButton": "Добавить кнопку на панель для ручного создания коллекции",
     "showCreateCollectionRibbonButtonDescription": "Включить или отключить кнопку на панели для ручного создания коллекции",
-    "generalSettings": "Общие настройки",
+    "generalSettings": "Общие",
     "preferredLocale": "Предпочтительный язык",
     "preferredLocaleDescription": "Устанавливает предпочтительный язык для использования при поиске фильмов или телешоу",
     "openNoteAfterCreation": "Открыть новую заметку о фильме или телешоу",

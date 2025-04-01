@@ -30,7 +30,7 @@
     "autoCreateCollectionDescription": "Aktivieren oder deaktivieren der automatischen Erstellung einer Sammlungs-Notiz, wenn ein Film zu einer Sammlung gehört",
     "showCreateCollectionRibbonButton": "Menüband-Schaltfläche für manuelle Sammlungserstellung hinzufügen",
     "showCreateCollectionRibbonButtonDescription": "Aktivieren oder deaktivieren der Menüband-Schaltfläche für die manuelle Sammlungserstellung",
-    "generalSettings": "Allgemeine Einstellungen",
+    "generalSettings": "Allgemeine",
     "preferredLocale": "Bevorzugte Sprache",
     "preferredLocaleDescription": "Legt die bevorzugte Sprache für die Suche nach Filmen oder TV-Sendungen fest",
     "openNoteAfterCreation": "Neue Film- oder TV-Sendungs-Notiz öffnen",

@@ -30,7 +30,7 @@
     "autoCreateCollectionDescription": "映画がコレクションに属している場合、コレクションノートの自動作成を有効または無効にする",
     "showCreateCollectionRibbonButton": "手動コレクション作成用のリボンボタンを追加",
     "showCreateCollectionRibbonButtonDescription": "手動コレクション作成用のリボンボタンを有効または無効にする",
-    "generalSettings": "一般設定",
+    "generalSettings": "一般",
     "preferredLocale": "優先言語",
     "preferredLocaleDescription": "映画やテレビ番組を検索する際に使用する優先言語を設定します",
     "openNoteAfterCreation": "新しい映画またはテレビ番組ノートを開く",

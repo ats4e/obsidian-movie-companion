@@ -30,7 +30,7 @@
     "autoCreateCollectionDescription": "启用或禁用当电影属于某个合集时自动创建合集笔记",
     "showCreateCollectionRibbonButton": "添加手动创建合集的功能区按钮",
     "showCreateCollectionRibbonButtonDescription": "启用或禁用手动创建合集的功能区按钮",
-    "generalSettings": "常规设置",
+    "generalSettings": "常规",
     "preferredLocale": "首选语言",
     "preferredLocaleDescription": "设置搜索电影或电视节目时使用的首选语言",
     "openNoteAfterCreation": "创建后打开新电影或电视节目笔记",

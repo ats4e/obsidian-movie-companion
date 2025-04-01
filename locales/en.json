@@ -30,7 +30,7 @@
     "autoCreateCollectionDescription": "Enable or disable the automatic creation of a collection note if a movie belongs to the collection",
     "showCreateCollectionRibbonButton": "Add ribbon button for manual collection creation",
     "showCreateCollectionRibbonButtonDescription": "Enable or disable the ribbon button for manual collection creation",
-    "generalSettings": "General settings",
+    "generalSettings": "General",
     "preferredLocale": "Preferred locale",
     "preferredLocaleDescription": "Sets the preferred locale to use when searching for movies or tv shows",
     "openNoteAfterCreation": "Open new movie or TV show note",

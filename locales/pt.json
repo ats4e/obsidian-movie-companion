@@ -30,7 +30,7 @@
     "autoCreateCollectionDescription": "Ativar ou desativar a criação automática de uma anotação de coleção se um filme pertencer à coleção",
     "showCreateCollectionRibbonButton": "Adicionar botão de faixa para criação manual de coleção",
     "showCreateCollectionRibbonButtonDescription": "Ativar ou desativar o botão de faixa para criação manual de coleção",
-    "generalSettings": "Configurações gerais",
+    "generalSettings": "Gerais",
     "preferredLocale": "Idioma preferido",
     "preferredLocaleDescription": "Define o idioma preferido para usar ao pesquisar filmes ou programas de TV",
     "openNoteAfterCreation": "Abrir nova anotação de filme ou programa de TV",

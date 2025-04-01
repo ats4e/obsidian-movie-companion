@@ -30,7 +30,7 @@
     "autoCreateCollectionDescription": "Activer ou désactiver la création automatique d'une note de collection si un film appartient à la collection",
     "showCreateCollectionRibbonButton": "Ajouter un bouton au ruban pour la création manuelle de collection",
     "showCreateCollectionRibbonButtonDescription": "Activer ou désactiver le bouton du ruban pour la création manuelle de collection",
-    "generalSettings": "Paramètres généraux",
+    "generalSettings": "Généraux",
     "preferredLocale": "Langue préférée",
     "preferredLocaleDescription": "Définit la langue préférée à utiliser lors de la recherche de films ou d'émissions de télévision",
     "openNoteAfterCreation": "Ouvrir la nouvelle note de film ou d'émission TV",
