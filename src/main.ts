@@ -59,12 +59,10 @@ export default class MovieCompanionPlugin extends Plugin {
         );
         ribbon_icon_element.addClass("obsidian-movie-companion-ribbon-class");
 
-        if(this.settings.show_manual_create_collection_button_ribbon) {
-            const ribbon_icon_c_element = this.addRibbonIcon("film", i18n.t("commands.createCollectionNote"), () =>
-                this.collectionService.searchAndCreateCollectionNote(),
-            );
-            ribbon_icon_c_element.addClass("obsidian-movie-companion-ribbon-class");
-        }
+        const ribbon_icon_c_element = this.addRibbonIcon("film", i18n.t("commands.createCollectionNote"), () =>
+            this.collectionService.searchAndCreateCollectionNote(),
+        );
+        ribbon_icon_c_element.addClass("obsidian-movie-companion-ribbon-class");
 
         // Add commands
         this.addCommand({

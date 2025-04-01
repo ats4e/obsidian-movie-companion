@@ -1,7 +1,7 @@
 import { App, getLanguage, PluginSettingTab, Setting } from "obsidian";
 import { normalizePath } from 'obsidian';
 
-import MovieCompanionPlugin from "../Main";
+import MovieCompanionPlugin from "../main";
 
 import { FileSuggest } from "./suggesters/FileSuggester";
 import { FolderSuggest } from "./suggesters/FolderSuggester";
@@ -21,7 +21,6 @@ export interface PluginSettings {
 	open_page_on_completion: boolean;
 	locale_preference: string;
 	api_key: string;
-	show_manual_create_collection_button_ribbon: boolean;
 	manual_poster_choise: boolean;
 }
 
@@ -36,7 +35,6 @@ export const DEFAULT_SETTINGS: PluginSettings = {
 	locale_preference: getDefaultLocale(),
 	api_key: "",
 	automatic_collection_creation: true,
-	show_manual_create_collection_button_ribbon: false,
 	manual_poster_choise: false,
 };
 
@@ -213,16 +211,6 @@ export class MovieSearchSettingTab extends PluginSettingTab {
 			const commands = (this.app as any).commands;
 			commands.executeCommandById('app:reload');
 		});
-
-		new Setting(containerEl)
-			.setName(i18n.t("settings.showCreateCollectionRibbonButton"))
-			.setDesc(manualCollectionDesc)
-			.addToggle(toggle =>
-				toggle.setValue(this.plugin.settings.show_manual_create_collection_button_ribbon).onChange(async value => {
-					this.plugin.settings.show_manual_create_collection_button_ribbon = value;
-					await this.saveSettings();
-				}),
-			);
 
 		// General Settings
 		new Setting(containerEl).setName(i18n.t("settings.generalSettings")).setHeading();
