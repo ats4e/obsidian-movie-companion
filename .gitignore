@@ -1,6 +1,5 @@
 data.json
 yarn.lock
-esbuild.config.mjs
 node_modules/*
 
 package-lock.json
