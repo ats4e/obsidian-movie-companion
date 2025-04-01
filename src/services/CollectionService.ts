@@ -48,7 +48,7 @@ export class CollectionService extends BaseRenderableService {
         const is_overwrite = await this.openBoolModal(IsOverwriteFileModal, file.name);
         create_file = is_overwrite;
         if (is_overwrite)
-          await this.app.vault.delete(file);
+          await this.app.fileManager.trashFile(file);
       }
 
       if (create_file) {
